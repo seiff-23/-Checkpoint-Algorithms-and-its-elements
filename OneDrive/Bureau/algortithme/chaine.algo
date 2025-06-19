@@ -1,0 +1,21 @@
+ALGORITHM algorithm_name
+VAR
+    len,mot,voy,i : INTEGER;
+    ch : STRING;
+BEGIN
+i := 0
+REPEAT
+    i:=i+1
+UNTIL (ch[i]==".")
+len := i + 1
+mot := 1
+voy := 0
+FOR i FROM 0 TO len STEP 1  DO
+    IF (ch[i] == " ") THEN
+        mot := mot + 1
+    ELSE_IF (ch[i] == "a" or ch[i] == "o" or ch[i] == "u" or ch[i] == "e" or ch[i] == "i" or ch[i] == "y") THEN
+        voy := voy+1
+    END_IF
+END_FOR
+write("la longeur de la chaine =", len, "le nombre de mots= ", mot,"le nombre de voyelle =", voy)
+END
