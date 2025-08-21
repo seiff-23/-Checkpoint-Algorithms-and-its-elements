@@ -1,0 +1,56 @@
+.fifa-card {
+  width: 220px;
+  height: 370px;
+  background: linear-gradient(#d4af37, #fffacd);
+  border-radius: 15px;
+  padding: 10px;
+  text-align: center;
+  box-shadow: 0 5px 15px rgba(0,0,0,0.3);
+  font-family: 'Arial Black', sans-serif;
+  margin: auto;
+}
+
+.card-header {
+  display: flex;
+  justify-content: space-between;
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.card-logos {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 5px;
+}
+
+.flag, .club-logo {
+  width: 30px;
+  height: 20px;
+  object-fit: cover;
+}
+
+.player-img {
+  width: 100px;
+  height: 120px;
+  object-fit: cover;
+  margin: 0 auto;
+  border-radius: 10px;
+}
+
+.player-name {
+  font-size: 18px;
+  margin: 8px 0 5px;
+  font-weight: bold;
+}
+
+.stats {
+  display: flex;
+  justify-content: space-between;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+.stats p {
+  margin: 2px 0;
+}
